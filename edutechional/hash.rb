@@ -10,3 +10,7 @@ p data2
 p data[:first]
 p data1["first"]
 p data2[:first]
+
+hash_delete = data.delete(:second)
+p "delete_value: " + hash_delete
+p data
