@@ -11,6 +11,10 @@ p data[:first]
 p data1["first"]
 p data2[:first]
 
+# Delete From Hash
 hash_delete = data.delete(:second)
 p "delete_value: " + hash_delete
 p data
+
+#Iterating Hash
+data2.each { |key,value| puts "#{key}:#{value}" }
